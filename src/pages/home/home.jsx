@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from "react";
-import Card from "../../componenets/cards/card.js";
-import Button from "../../components/button/button";
+import Card from "../../componentes/cards/card.jsx";
+import Button from "../../componentes/button/button.jsx";
 
-function home() {
+function Home() {
   const [character, setcharacter] = useState([]);
-
 async function fetchDatacharacter() {
   const response = await fetch("https://hp-api.onrender.com/api/characters", {
     method: "GET",
@@ -19,13 +18,13 @@ useEffect(() => {
 }, []);
 
 return (
-  <div className="App">
+  <div className="Home">
       {character.map((character) => (
         <div key={character.id}>
-          <Card props={character}></Card>
+          <Card id ={character.id} name = {character.name} image = {character.image} ></Card>
         </div>
       ))}
     </div>
   );
 }
-export default home
+export default Home;

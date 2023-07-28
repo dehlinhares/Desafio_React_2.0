@@ -1,14 +1,16 @@
+
 .card-content {
-    background-color: aqua;
-    display: flex;
+    background-color: rgba(112, 105, 105, 0.489);
+    text-align: center;
+    display:flex;
+    border-bottom: 0cqmax;
     flex-direction: column;
-    justify-content: center;
-    width: 200px;
-    height: 300px;
-    margin: 30px;
+    justify-content: flex-start;
+    width: 300px;
+    height: 500px;
+
+    margin: 50px;
   }
   
-  img {
-    width: 100px;
-    height: 100px;
-  }
+ 
+  

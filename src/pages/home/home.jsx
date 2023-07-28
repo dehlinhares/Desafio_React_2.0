@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Card from "../../componentes/cards/card.jsx";
+
 import Button from "../../componentes/button/button.jsx";
+
+// import './src/home/home.css';
 
 function Home() {
   const [character, setcharacter] = useState([]);
@@ -19,9 +22,15 @@ useEffect(() => {
 
 return (
   <div className="Home">
+   
       {character.map((character) => (
         <div key={character.id}>
-          <Card id ={character.id} name = {character.name} image = {character.image} ></Card>
+          <Card id ={character.id} 
+          name = {character.name} 
+          image = {character.image}
+          house = {character.house}
+           ></Card>
+            
         </div>
       ))}
     </div>

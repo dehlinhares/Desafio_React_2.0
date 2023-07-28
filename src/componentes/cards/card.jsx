@@ -5,8 +5,8 @@ function Card( props ) {
   return (
     <div className="card-content">
       <p>{props.name}</p>
+      <p>{props.house}</p>
       <img alt="" src={props.image}></img>
-      {/* <Link to="/details">CLIQUE ME</Link> */}
     </div>
   );
 }

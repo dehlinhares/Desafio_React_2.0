@@ -1,26 +1,28 @@
 
 body {
-  
-    font-family: 'Roboto', 'Franklin Gothic Medium', 'Arial Narrow';
-    font-size: 1.6em;
-    max-width: 200vw;
-     content: "";
-     background: url(https://images.pexels.com/photos/10993195/pexels-photo-10993195.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+
+     background: url(https://m.media-amazon.com/images/I/91OTtJUf1JL._AC_SL1500_.jpg);
       background-position:top;
       background-size: 100%;
-      opacity: 02;
+      opacity: 01;
       top: 0;
       left: 0;
       bottom: 0;
       right: 0;
-      position: absolute;
-      z-index: -1;   
+      position: absolute;  
   }
+.Home{
 
+     display: flex ;
+     flex-direction: row;
+     justify-content:space-between;
+     flex-wrap: wrap;
 
+}
+  /* papeis de parede:
+       background: url(https://images.pexels.com/photos/10993195/pexels-photo-10993195.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+       background: url(https://m.media-amazon.com/images/I/91OTtJUf1JL._AC_SL1500_.jpg);
 
-/* IDEIAS DE BACKGROUNDS
- background: url(https://images.pexels.com/photos/10993195/pexels-photo-10993195.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); 
- 
- */
+  https://m.media-amazon.com/images/I/91OTtJUf1JL._AC_SL1500_.jpg
+   */
   

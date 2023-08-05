@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Card from "../../componentes/cards/card.jsx";
-import Button from "../../componentes/button/button.jsx";
 
 // import './src/home/home.css';
 

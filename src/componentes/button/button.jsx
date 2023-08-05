@@ -1,9 +1,9 @@
-function Button({ Text, onClick, Type = "button" }) {
+function ButtonB({Text, onClick, Type = "Button" }) {
     return (
-      <button className="content-button" type={Type} onClick={onClick}>
+      <button className="content-button" type={Type} onClick={onClick} Text={Text}>
         CLIQUE ME
       </button>
     );
   }
   
-  export default Button;
+  export default button;

@@ -10,8 +10,6 @@ function Card( props ) {
     <img className="CardImage" alt="" src={props.image}></img>
     </div></div>
     
-  
-      
       
   );
 }

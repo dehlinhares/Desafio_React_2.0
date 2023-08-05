@@ -17,6 +17,7 @@ body {
      flex-direction: row;
      justify-content:space-between;
      flex-wrap: wrap;
+     cursor: pointer;
 
 }
   /* papeis de parede:
